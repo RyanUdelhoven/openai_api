@@ -1,11 +1,13 @@
+## What is this?
+This is the minimum OpenAI API call.
+
 ## API Key
-1. Go to [OpenAI](https://platform.openai.com/api-keys) to get an API key.
-2. Create a .env file
-3. Create `API_KEY` variable and set it to your API key.
-4. Assure you have the proper funds, else you will get a 429 error.
+1. Go to [OpenAI](https://platform.openai.com/api-keys) to create you own API key.
+2. Set `API_KEY` to your API key in your .env file
+3. Assure you have the proper funds, else you will get a 429 error.
 
 ## Using
-You can replace the message by changing the `content` constant.
+Change the message by changing the `content` constant in scripts.js
 
 ## Running
 In your terminal type `npm run dev`.
